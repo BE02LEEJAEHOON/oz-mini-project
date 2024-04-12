@@ -1,14 +1,5 @@
 # 1. aws - ec2 생성  
 
-<img width="1199" alt="image" src="https://github.com/bamjun/oz-test-miniproject-1/assets/21354840/265b7802-066d-42f9-9f83-be51dbc24c26">
-
-<img width="1199" alt="image" src="https://github.com/bamjun/oz-test-miniproject-1/assets/21354840/56622d39-eaee-4e22-94a2-8de273389b38">
-
-<img width="974" alt="image" src="https://github.com/bamjun/oz-test-miniproject-1/assets/21354840/67cbad92-e828-4665-829c-100ca2a81737">
-
-<img width="1199" alt="image" src="https://github.com/bamjun/oz-test-miniproject-1/assets/21354840/90acc74c-9c3f-4dde-b2f9-79be3c12ee57">
-
-
 # 2. ec2 - git 설치  
 
 ```bash
@@ -43,13 +34,13 @@ sudo chmod +x /usr/local/bin/docker-compose
 # 7. 깃 클론  
 
 ```bash
-git clone https://github.com/bamjun/oz-test-miniproject-1.git
+git clone https://github.com/BE02LEEJAEHOON/oz-mini-project.git
 ```
 
 # 8. 설치 폴더로 이동  
 
 ```bash
-cd oz-test-miniproject-1
+cd 디렉토리명
 ```
 
 # 9.  entrypoint.sh 권한 부여
