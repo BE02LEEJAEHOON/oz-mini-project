@@ -26,12 +26,5 @@ ENV FLASK_APP=app:create_app
 ENV FLASK_RUN_HOST=0.0.0.0
 ENV FLASK_RUN_PORT=5000
 
-
-# 스크립트 파일 복사
-COPY entrypoint.sh /app/entrypoint.sh
-
-# 실행 권한 부여
-RUN chmod +x /app/entrypoint.sh
-
-# entrypoint 설정
-ENTRYPOINT ["/app/entrypoint.sh"]
+# gunicorn으로 앱 실행
+CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5000", "app:create_app()"]
